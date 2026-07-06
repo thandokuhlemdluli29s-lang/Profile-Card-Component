@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.top-background {
+    position: absolute;
+    top: -500px;
+    left: -750px;
+}
+
+.bottom-background {
+    position: fixed;
+    bottom: -600px;
+    right: -750px; 
+} 
+
+@media(min-width: 767px) and (max-width: 1023px) {
+    .top-background {
+    position: absolute;
+    top: -450px;
+    left: -500px;
+    }
+
+    .bottom-background {
+        position: absolute;
+        bottom: -1200px;
+        right: -500px;
+    } 
+}
+
+@media (min-width: 1023px) {
+   .top-background {
+    position: absolute;
+    top: -500px;
+    left: -260px;
+    }
+
+    .bottom-background {
+        position: absolute;
+        bottom: -1100px;
+        right: -260px;
+    } 
+}

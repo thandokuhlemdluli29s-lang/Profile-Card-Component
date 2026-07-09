@@ -29,8 +29,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profile-card-component-FOcXsk96hj)
-- Live Site URL: [Add live site URL here](https://thandokuhlemdluli29s-lang.github.io/Profile-Card-Component/)
+- My Solution URL: [solution](https://www.frontendmentor.io/solutions/profile-card-component-FOcXsk96hj)
+- My Live Site URL: [live site](https://thandokuhlemdluli29s-lang.github.io/Profile-Card-Component/)
 
 ## My process
 
@@ -64,8 +64,12 @@ To see how you can add code snippets, see below:
 </div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.profile-info p:last-child {
+    margin-top: 10px;
+    margin-bottom: 24px;
+
+    color: hsl(227, 10%, 46%);
+    font-size: .9rem;
 }
 ```
 
